@@ -11,5 +11,5 @@ docker run hello-world
 
 Output of docker container
 --------------------------
-hello-world
+Hello-world
 
