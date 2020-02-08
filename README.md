@@ -1,2 +1,2 @@
 # hello-world
-For demo purpose
+Dockerfile for hello-world python program
