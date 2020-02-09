@@ -1,4 +1,6 @@
-FROM python:2
+FROM python:3.8-slim-buster
+
+RUN apt-get update && apt install -y python3-pip
 
 RUN mkdir /app
 
@@ -6,4 +8,6 @@ COPY . /app
 
 WORKDIR /app
 
-ENTRYPOINT ["python", "hello-world.py"]
+RUN pip3 install -r requirements.txt
+
+ENTRYPOINT ["python3", "hello-world.py"]
