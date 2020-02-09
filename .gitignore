@@ -1,0 +1,3 @@
+# Ignore all executable files. For e.g.: dockerfile~, app.py~
+*~
+*.pyc
