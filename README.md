@@ -3,7 +3,7 @@ git clone git@github.com:innovolt/hello-world.git
 
 Create docker image with name hello-world
 -----------------------------------------
-## from hello-world
+cd hello-world
 docker build -t hello-world .
 
 Run docker container hello-world
