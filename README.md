@@ -1,15 +1,15 @@
-# hello-world
-Dockerfile for hello-world python program
+# Clone the repo
+git clone git@github.com:innovolt/hello-world.git
 
 Create docker image with name hello-world
 -----------------------------------------
+# from hello-world
 docker build -t hello-world .
 
 Run docker container hello-world
 --------------------------------
 docker run hello-world
 
-Output of docker container
+cURL to test the server
 --------------------------
-Hello-world
-
+curl http://127.0.0.1:5000
