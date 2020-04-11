@@ -6,6 +6,7 @@ app.logger.setLevel(logging.DEBUG)
 
 @app.route("/")
 def hello():
+	print("hello")
 	app.logger.debug("hello called...")
 	return "Hello World!"
 
